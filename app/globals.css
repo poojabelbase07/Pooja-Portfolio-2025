@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  outline: 1px solid red;
+} */
+
+:root {
+  --accent: 151, 255, 244;
+  --background-color-primary: 25, 25, 36;
+  --background-color-secondary: 28, 28, 39;
+
+  --text-color-white: 242, 243, 244;
+  --text-color-slate: 136, 146, 176;
+  --text-color-white-dim: 177, 178, 179;
+}
+
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+body {
+  color: rgb(var(--text-color-white));
+  background: rgb(var(--background-color-primary));
+}
+
+/* Remove all animations, transitions and smooth scrolling */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Height */
+.h-svhScreen {
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+.h-lvhScreen {
+  min-height: 100vh;
+  min-height: 100lvh;
+}
+
+.min-h-svhScreen {
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+.min-h-lvhScreen {
+  min-height: 100vh;
+  min-height: 100lvh;
+}
+
+/* Loading animation */
+@keyframes animate-stroke {
+  0% {
+    fill: transparent;
+    stroke: white;
+    stroke-width: 3;
+    stroke-dashoffset: 0%;
+
+    /* Defines the pattern of dash and gap */
+    stroke-dasharray: 100% 0;
+  }
+
+  30% {
+    fill: transparent;
+    stroke: white;
+    stroke-width: 1;
+    stroke-dashoffset: 25%;
+
+    /* Defines the pattern of dash and gap */
+    stroke-dasharray: 0 32%;
+  }
+
+  50% {
+    fill: transparent;
+    stroke: white;
+    stroke-width: 1;
+  }
+
+  90%,
+  100% {
+    stroke: transparent;
+    stroke-width: 0;
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 32% 0;
+  }
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(40, 40, 49);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(26, 211, 192);
+}
+
+@supports (scrollbar-color: rgb(26, 211, 192) rgb(40, 40, 49)) {
+  * {
+    scrollbar-color: rgb(26, 211, 192) rgb(40, 40, 49);
+  }
+}
