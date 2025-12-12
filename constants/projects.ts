@@ -34,7 +34,7 @@ export const projects = [
     infoURL: '',
   },
   {
-    title: 'Mentii - Mental Health Platform',
+    title: 'Tekmiz - Learning Platform',
     startDate: 'March 2025',
     endDate: 'June 2025',
     detail:
@@ -46,7 +46,7 @@ export const projects = [
     infoURL: '',
   },
   {
-    title: 'Tekmiz - Learning Platform',
+    title: 'Mentii - Mental Health Platform',
     startDate: 'Sep 2024',
     endDate: 'Jan 2025',
     detail:
