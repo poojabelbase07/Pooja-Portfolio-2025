@@ -1,3 +1,4 @@
+/*
 export const talks = [
   {
     title: 'Go: ORM vs Raw SQL',
@@ -10,3 +11,6 @@ export const talks = [
       'https://www.youtube.com/embed/yndDIrpCcnQ?start=290&end=600&autoplay=0&showinfo=0&controls=0',
   },
 ];
+
+*/
+
