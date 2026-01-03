@@ -1,4 +1,4 @@
-export const resumeLink = "https://drive.google.com/file/d/1TfqbabdUsj_T_HfsVTKKmL_SqFVI5103/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/1coaBKd7ByUj8rSpRtcf-i2jZZso2qKyn/view?usp=sharing";
 
 export const experiences = [
   {
@@ -12,8 +12,8 @@ export const experiences = [
     ],
      moreDetail: [
       {
-        detail: 'LMS System Launch',
-        link: 'https://www.youtube.com/watch?v=uKxyMuqu_5M&t=1093s',
+        detail: 'Paarsh Infotech',
+        link: '',
       },
     ],
     skills: ['Node.js', 'ExpressJS', 'ReactJS', 'MongoDB'],
@@ -30,20 +30,19 @@ export const experiences = [
     ],
     moreDetail: [
       {
-        detail: 'LMS System Launch',
-        link: 'https://www.youtube.com/watch?v=uKxyMuqu_5M&t=1093s',
+        detail: 'Expelee',
+        link: '',
       },
     ],
     skills: [
-      'ReactJs',
-      'ExpressJs',
-      'Typescript',
-      'AWS',
-      'PostgreSQL',
-      'Git',
+      'User Interface',
+      'Typography',
+      'User Experience',
+      'Content Writing',
+      'Figma',
       'GitHub',
     ],
     certificate:
-      'https://drive.google.com/file/d/1-dZ_OEWuZ7y-aOC6vQn5q5vlyyP4O2GK/view?usp=sharing',
+      'https://drive.google.com/file/d/13jGqM7EkTHMEMP8GlQoqF9jhV7RzSmiE/view?usp=sharing',
   },
 ];

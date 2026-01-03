@@ -14,7 +14,7 @@ import WorkshopManager from '../assets/images/projects/workshop-manager.png';
 export const projects = [
   {
     title: 'Audit Trial System',
-    startDate: 'Sep 2025',
+    startDate: 'Nov 2025',
     endDate: 'Present',
     detail:
       'A secure Audit Logging System designed to track, record, and monitor all critical actions across an application. Ensures transparency, accountability, and easy activity review for users and admins.',
@@ -29,8 +29,8 @@ export const projects = [
        'REST APIs',
     ],
     image: InterviewExperience,
-    codeURL: 'https://github.com/Kkwagh-Coders/interview-experience-client',
-    liveURL: 'https://official-interview-experience.netlify.app',
+    codeURL: 'https://github.com/poojabelbase07/Audit-Trail-System-Backend',
+    liveURL: '',
     infoURL: '',
   },
   {
@@ -38,11 +38,11 @@ export const projects = [
     startDate: 'March 2025',
     endDate: 'June 2025',
     detail:
-      'A Web Application Framework in C++ from Scratch. This project helped me to gain deep understanding about Servers and also apply my API Knowledge.',
-    techStack: ['C++', 'DSA', 'HTTP', 'CNS'],
+      'Tekmiz is a MERN stack based e-learning platform. This project helped me to gain deep understanding about file management and how to apply my API Knowledge.',
+    techStack: ['React', 'NodeJS', 'Express','REST API', 'MongoDB'],
     image: CrystalFramework,
-    codeURL: 'https://github.com/Suhaan-Bhandary/HTTP-Server-CPP',
-    liveURL: 'https://crystal-web-framework.onrender.com',
+    codeURL: 'https://github.com/poojabelbase07/Tekmiz-E-learning-platform',
+    liveURL: 'https://tekmiz-e-learning-platform.vercel.app',
     infoURL: '',
   },
   {
@@ -50,13 +50,13 @@ export const projects = [
     startDate: 'Sep 2024',
     endDate: 'Jan 2025',
     detail:
-      'Secured Sponsorship from the College Workshop for a Web Application, which reduces paper trail by 70%. Designed and implemented the frontend flow for the application and developed an authentication system using Session and mail system with Nodemailer, resulting in a more efficient and streamlined process.',
-    techStack: ['ReactJs', 'Redux', 'NodeJs', 'ExpressJs', 'PostgreSQL'],
+      'Mentii is a web application focused on supporting mental well-being by helping users track moods, journal thoughts, and reflect on their emotional health.',
+    techStack: ['ReactJs', 'Gemini API', 'Firebase'],
     image: WorkshopManager,
-    codeURL: '',
-    liveURL: '',
+    codeURL: 'https://github.com/poojabelbase07/Mentii-Your-Mental-Health-Buddy',
+    liveURL: 'https://mentii-your-mental-health-buddy-gilt.vercel.app',
     infoURL:
-      'https://drive.google.com/file/d/1zpJKvCFkl4Wh6YKSRx65sssgiICGtzxB/view',
+      '',
   }, 
   {
     title: 'Typing Multiplayer',
