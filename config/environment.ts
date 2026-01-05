@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://suhaan-bhandary.vercel.app';
+export const BASE_URL = 'https://pooja-portfolio-2025.vercel.app/';

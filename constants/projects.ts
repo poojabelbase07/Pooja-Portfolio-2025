@@ -59,15 +59,15 @@ export const projects = [
       '',
   }, 
   {
-    title: 'Typing Multiplayer',
-    startDate: 'Aug 2021',
+    title: 'Book Recommendation',
+    startDate: 'Dec 2024',
     endDate: '',
     detail:
-      'A Website which can be used to host Typing Games and Chat with Friends and one can also Join other Groups and spend fun times with other and compare speeds using charts and learn typing.',
+      'Discover next favorite book with personalized Book Recommendation! This project fetches data from the Google Books API to provide users with relevant and trending book suggestions based on their search preferences.',
     techStack: ['JavaScript', 'NodeJs', 'Express', 'SocketIo', 'HTML/CSS'],
     image: TypingMultiplayer,
-    codeURL: 'https://github.com/Suhaan-Bhandary/TypingFightMultiplayer',
-    liveURL: 'https://typing-fight.glitch.me',
+    codeURL: 'https://github.com/poojabelbase07/Book-recommendation',
+    liveURL: '',
     infoURL: '',
   }, 
   {
