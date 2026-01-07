@@ -130,19 +130,6 @@ export const projects = [
     infoURL: '',
   },
   {
-    title: 'Sobel Filter',
-    startDate: 'Apr 2023',
-    endDate: '',
-    detail:
-      'Image Processing Project in C++. Implemented the Sobel Filter for Edge Detection.',
-    techStack: ['C++', 'Sobel Algorithm', 'PPM P3'],
-    image: SobelFilter,
-    codeURL:
-      'https://github.com/Suhaan-Bhandary/Image-Processing-And-Sobel-CPP',
-    liveURL: '',
-    infoURL: '',
-  },
-  {
     title: 'KMean on IPL Data',
     startDate: 'Aug 2022',
     endDate: '',
