@@ -105,18 +105,7 @@ export const projects = [
     liveURL: '',
     infoURL: '',
   }, 
-  {
-    title: 'Sudoku',
-    startDate: 'Oct 2021',
-    endDate: '',
-    detail:
-      'A Full Featured Sudoku Game. Features of Sudoku: Hard Mode, Hints, Auto Solve, Danger Indication and Animations.\nWas Created as a Case Study for Discrete Maths',
-    techStack: ['React', 'CSS', 'LottieFiles'],
-    image: SudokuGame,
-    codeURL: 'https://github.com/Suhaan-Bhandary/Sudoku-Game',
-    liveURL: 'https://suhaan-bhandary.github.io/Sudoku-Game/',
-    infoURL: '',
-  },
+  
   {
     title: 'Maze Generator',
     startDate: 'Jan 2021',
