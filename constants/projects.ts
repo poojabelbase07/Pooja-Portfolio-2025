@@ -71,18 +71,6 @@ export const projects = [
     infoURL: '',
   }, 
   {
-    title: 'LookUp',
-    startDate: 'Jun 2021',
-    endDate: '',
-    detail:
-      'A Bridge Between Teachers and Students, This project was a custom notification app where teachers can post assignments, news, and instructions, and students were notified using Gmail. It had an user base of 200 when Online Classes were going.',
-    techStack: ['Django', 'Django RestApi', 'React', 'Sqlite'],
-    image: LookUp,
-    codeURL: 'https://github.com/Suhaan-Bhandary/PBL-Website',
-    liveURL: '',
-    infoURL: '',
-  },
-  {
     title: 'Graph Visualizer',
     startDate: 'May 2022',
     endDate: '',
