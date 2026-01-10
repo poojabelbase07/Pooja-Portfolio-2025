@@ -40,7 +40,7 @@ export default function Footer() {
         </li>
         <li className="cursor-pointer transition-transform duration-75 hover:translate-y-[-5px] hover:text-accent-400">
           <Link
-            href="https://auth.geeksforgeeks.org/user/suhaanbhandary1/practice"
+            href=""
             aria-label="GeeksForGeeks"
             target="_blank"
             rel="noreferrer noopener"
