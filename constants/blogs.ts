@@ -5,7 +5,7 @@ export const blogs = [
     readTime: '6 min read',
     tags: ['Go', 'DSA', 'Guide'],
     excerpt: 'A comprehensive guide to get started with DSA in Go.',
-    url: 'https://medium.com/@suhaanbhandary1/a-beginners-guide-to-dsa-in-go-f7eccbf3873d',
+    url: '',
   },
   {
     title: 'Let’s Go! Writing Better Go',
@@ -13,6 +13,6 @@ export const blogs = [
     readTime: '5 min read',
     tags: ['Go', 'Best Practices', 'Tips And Tricks'],
     excerpt: 'Go is all about simplicity, clarity, and clean code.',
-    url: 'https://medium.com/@suhaanbhandary1/lets-go-writing-better-go-c765c49d6f27',
+    url: '',
   }
 ];
